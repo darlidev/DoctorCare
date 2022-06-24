@@ -1,0 +1,240 @@
+:root{
+    --primary: #00856F;
+    --dark:#DCE9E2;
+    --light:#F7F9F9;
+    --danger-light:#FFFAF1;
+    --primary-x:#00453A;
+    --secondary:#212529;
+    --grey:#495057;
+    --white:#3E3E3E;
+
+    --main:'DM Sans', sans-serif;
+    --h1:3.25rem;
+    --paragraph:1.125rem;
+    --medium:600;
+    --h2:2.5rem;
+
+}
+
+body{
+    font-family:var(--main);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h2{
+    font-size:var(--h2)!important;
+}
+
+
+
+/*  navbar */
+.navbar{
+    background-color: var(--dark)!important;
+    min-height: 4.5rem;
+}
+
+
+
+.text-primary{
+    color: var(--primary)!important;
+}
+
+.nav-link{
+    font-size:1rem;
+}
+
+
+
+
+i{
+    font-size:1rem;
+}
+
+.i-primary{
+    color:var(--primary)!important;
+}
+
+
+/*  Button del navbar "Agendar consulta" */
+
+.btn:focus {
+    outline: none;
+    box-shadow: none!important;
+  }
+
+
+.btn-outline-succes{
+    background-color:var(--dark)!important ;
+    border-color: var(--primary)!important;
+    color: var(--primary)!important;
+    font-size: 1rem;
+}
+.btn-outline-succes:hover{
+    background-color:var(--primary)!important ;
+    border-color: var(--primary)!important;
+    color: var(--white);
+    font-size: 1rem;
+}
+
+.btn{
+    padding:.875rem 1.5rem;
+    border-radius:2.5rem;
+   
+}
+
+.btn-sm{
+    padding:.625rem 1.25rem;
+    font-size:var(--paragraph);
+}
+
+/* redes sociales del navbar en responsive */
+.redes li a{
+    color:var(--light);
+    font-size:1.25rem;
+    text-decoration:none;
+}
+
+
+
+
+
+
+
+/*  Hero" */
+.bg-dark{
+    background-color: var(--dark)!important;
+}
+
+h1{
+    font-size:var(--h1);
+}
+
+@media screen and (max-width:317px){
+    h1{
+        font-size:28px;
+    }
+}
+
+p{
+    font-size: var(--paragraph);
+}
+
+.btn-primary{
+    background-color: var(--primary)!important;
+    border-color: var(--primary)!important;
+}
+.btn-primary:hover{
+    background-color: var(--primary-x)!important;
+    border-color: var(--primary-x)!important;
+}
+
+.text-primary{
+    color: var(--primary)!important;
+}
+.fw-medium{
+    font-weight: var(--medium);
+}
+
+
+
+/*  Container con position absolute */
+
+
+.bg-danger-light{
+    background-color: var(--danger-light);
+}
+
+.text-secondary{
+    color: var(--secondary)!important;
+}
+.vl {
+    border-left: 1px solid var(--primary);
+    height: 83px;
+  }
+
+.position-absolute{
+    top: -2rem;
+}
+
+
+@media (min-height: 518px){
+    .pt-6{
+        padding:8rem 0;
+       
+    }
+}
+@media (max-height: 617px){
+    .pt-7{
+        padding-top:95rem;
+        
+    }
+}
+@media (max-height: 1433px){
+    .pt-5{
+        margin-top:0rem 0;
+        
+    }
+}
+
+
+@media (min-width: 583px){
+    .col-sm-4 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+@media (min-width: 770px){
+    .col-sm-4 {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+}
+
+
+
+
+
+
+
+
+/*  Sección Servicios */
+
+.check{
+    background-color: var(--dark)!important;
+    width: 1.5rem;
+    height:1.5rem;
+    border-radius:6.25rem;
+   margin-bottom:1rem;
+}
+
+.servicios{
+    max-width:497px;
+}
+
+.card{
+    border-radius:0.375rem;
+    -webkit-border-radius:0.375rem;
+    -moz-border-radius:0.375rem;
+    -ms-border-radius:0.375rem;
+    -o-border-radius:0.375rem;
+
+    border-color: var(--dark)!important;
+}
+
+
+
+
+
+
+
+
+/*  Footer */
+.bg-primary{
+    background-color: var(--primary)!important;
+}
+
+.logo-white{
+    width: 15rem;
+ 
+}
